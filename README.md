@@ -1,5 +1,7 @@
 # Tutorial materials designed for the MPC course at TU Delft
 
+This repository is actively being developed.
+
 ## Required background knowledge
 - State space model 
 - Discretization
@@ -24,5 +26,8 @@ Here are some interesting papers you might find valuable. Reading them is option
 
 ### Numerical methods 
 
+Coming soon ...
+
 ### MPC and RL
 
+Coming soon ...
