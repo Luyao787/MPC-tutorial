@@ -101,3 +101,57 @@ def solve_condensed_mpc(
     u_bar = u_bar.reshape((N, dim_u))
     
     return x_bar, u_bar
+
+def remove_zero_rows(A, b):
+    """
+    Removes rows of A that are all zeros and the corresponding elements in b.
+    """
+    keeprows = np.any(A, axis=1)
+    A = A[keeprows, :]
+    b = b[keeprows]
+    
+    return A, b 
+
+def proj_single_input(G, H, psi):
+    # Define the sets by basing on the i-th column of H
+   
+    I_0 = np.where(H == 0)[0]
+    I_p = np.where(H > 0)[0]
+    I_m = np.where(H < 0)[0]
+
+    # Set the row of matrix [P gamma]
+
+    # Define C
+    C = np.hstack((G, psi))
+
+    # Define row by row [P gamma]
+    aux = []
+    for i in I_0:
+        aux.append(C[i])
+
+    for i in I_p:
+        for j in I_m:
+            aux.append(H[i]*C[j] - H[j]*C[i])
+
+    # Return the desired matrix/vector
+    aux = np.array(aux)
+    P = aux[:,:-1]
+    gamma = aux[:,[-1]]
+    
+    P, gamma = remove_zero_rows(P, gamma)
+
+    return P, gamma
+
+def proj_input(G, H, psi, N, dim_u):
+    G_i = np.hstack((G, H[:,:-1]))
+    H_i = H[:,-1]
+    psi_i = psi
+
+    for i in range(N * dim_u, 0, -1):
+        P_i, gamma_i = proj_single_input(G_i, H_i, psi_i)
+
+        G_i = P_i[:,:-1]
+        H_i = P_i[:,-1]
+        psi_i = gamma_i
+
+    return P_i, gamma_i
