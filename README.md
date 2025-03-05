@@ -31,6 +31,8 @@ Here are some interesting papers you might find valuable. Reading them is option
 
 - Bemporad, A., "Quadratic programming and explicit MPC", http://cse.lab.imtlucca.it/~bemporad/teaching/mpc/imt/3-qp_explicit.pdf.
 
+- Gros, S., Zanon, M., Quirynen, R., Bemporad, A., & Diehl, M. (2016). From linear to nonlinear MPC: bridging the gap via the real-time iteration. International Journal of Control, 93(1), 62–80.
+
 ### MPC and RL
 
 Coming soon ...
