@@ -17,21 +17,23 @@ Rawlings, J. B., Mayne D. Q., Diehl, M., Model Predictive Control: Theory, Compu
 
 ## Reading
 
-## Books
+## Textbooks
 
 - Rawlings, J. B., Mayne D. Q., Diehl, M., Model Predictive Control: Theory, Computation, and Design, 2nd Edition, Nobhill Publishing.
 
 - Borrelli, Francesco et al. “Predictive Control for Linear and Hybrid Systems.”
 
-## Papers
+## Papers & Books
 
-Here are some interesting papers you might find valuable. Reading them is optional for this course.
+Here are some interesting papers and books you might find valuable. Reading them is optional for this course.
 
 ### Numerical methods 
 
 - Bemporad, A., "Quadratic programming and explicit MPC", http://cse.lab.imtlucca.it/~bemporad/teaching/mpc/imt/3-qp_explicit.pdf.
 
 - Gros, S., Zanon, M., Quirynen, R., Bemporad, A., & Diehl, M. (2016). From linear to nonlinear MPC: bridging the gap via the real-time iteration. International Journal of Control, 93(1), 62–80.
+
+- Betts, John T., "Practical Methods for Optimal Control Using Nonlinear Programming, Third Edition".
 
 ### MPC and RL
 
