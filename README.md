@@ -29,6 +29,8 @@ Here are some interesting papers and books you might find valuable. Reading them
 
 ### Numerical methods 
 
+- C. V. Rao, S. J. Wright, and J. B. Rawlings, “Application of Interior-Point Methods to Model Predictive Control,” Journal of Optimization Theory and Applications, vol. 99, no. 3, pp. 723–757, Dec. 1998.
+
 - Bemporad, A., "Quadratic programming and explicit MPC", http://cse.lab.imtlucca.it/~bemporad/teaching/mpc/imt/3-qp_explicit.pdf.
 
 - Gros, S., Zanon, M., Quirynen, R., Bemporad, A., & Diehl, M. (2016). From linear to nonlinear MPC: bridging the gap via the real-time iteration. International Journal of Control, 93(1), 62–80.
