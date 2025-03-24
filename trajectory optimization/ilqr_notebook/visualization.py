@@ -44,4 +44,4 @@ def visualize_cartpole(q_trj, dt, L):
     anim = animation.FuncAnimation(fig, animate, init_func=init,
                                    frames=q_trj.shape[0], interval=50, blit=True)
 
-    plt.show()
+    anim.save('cartpole.mp4', writer='ffmpeg', dpi=500)
