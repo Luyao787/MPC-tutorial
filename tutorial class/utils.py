@@ -142,16 +142,33 @@ def proj_single_input(G, H, psi):
 
     return P, gamma
 
+def fm_elim(G, H, psi):
+    '''
+    Performs one step of Fourier-Motzkin elimination for inequality constraints.
+    '''
+    I0 = np.where(H == 0)[0]
+    Ip = np.where(H > 0)[0]
+    Im = np.where(H < 0)[0]
+    
+    E = np.hstack([G, psi])    
+    Ee = np.vstack([E[I0, :], np.kron(H[Ip], E[Im, :]) - np.kron(E[Ip, :], H[Im])])
+    P = Ee[:, :-1]
+    gamma = np.expand_dims(Ee[:, -1], axis=1)
+    P, gamma = remove_zero_rows(P, gamma)
+    
+    return P, gamma
+
 def proj_input(G, H, psi, N, dim_u):
     G_i = np.hstack((G, H[:,:-1]))
-    H_i = H[:,-1]
+    H_i = np.expand_dims(H[:,-1], axis=1)
     psi_i = psi
 
     for i in range(N * dim_u, 0, -1):
         P_i, gamma_i = proj_single_input(G_i, H_i, psi_i)
+        # P_i, gamma_i = fm_elim(G_i, H_i, psi_i)
 
         G_i = P_i[:,:-1]
-        H_i = P_i[:,-1]
+        H_i = np.expand_dims(P_i[:,-1], axis=1)
         psi_i = gamma_i
 
     return P_i, gamma_i
