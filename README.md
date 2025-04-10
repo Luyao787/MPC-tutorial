@@ -39,4 +39,5 @@ Here are some interesting papers and books you might find valuable. Reading them
 
 ### MPC and RL
 
-Coming soon ...
+- D. P. Bertsekas, “Model Predictive Control and Reinforcement Learning: A Unified Framework Based on Dynamic Programming,” Jun. 30, 2024.
+
