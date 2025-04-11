@@ -33,6 +33,8 @@ Here are some interesting papers and books you might find valuable. Reading them
 
 - Bemporad, A., "Quadratic programming and explicit MPC", http://cse.lab.imtlucca.it/~bemporad/teaching/mpc/imt/3-qp_explicit.pdf.
 
+- https://qpsolvers.github.io/qpsolvers/references.html#schwan2023
+
 - Gros, S., Zanon, M., Quirynen, R., Bemporad, A., & Diehl, M. (2016). From linear to nonlinear MPC: bridging the gap via the real-time iteration. International Journal of Control, 93(1), 62–80.
 
 - Betts, John T., "Practical Methods for Optimal Control Using Nonlinear Programming, Third Edition".
