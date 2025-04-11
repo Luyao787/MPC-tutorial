@@ -29,13 +29,19 @@ Here are some interesting papers and books you might find valuable. Reading them
 
 ### Numerical methods 
 
+#### QP
+
 - C. V. Rao, S. J. Wright, and J. B. Rawlings, “Application of Interior-Point Methods to Model Predictive Control,” Journal of Optimization Theory and Applications, vol. 99, no. 3, pp. 723–757, Dec. 1998.
 
 - Bemporad, A., "Quadratic programming and explicit MPC", http://cse.lab.imtlucca.it/~bemporad/teaching/mpc/imt/3-qp_explicit.pdf.
 
 - https://qpsolvers.github.io/qpsolvers/references.html#schwan2023
 
+- D. Kouzoupis, G. Frison, A. Zanelli, and M. Diehl, “Recent Advances in Quadratic Programming Algorithms for Nonlinear Model Predictive Control,” Vietnam J. Math., vol. 46, no. 4, pp. 863–882, Dec. 2018, doi: 10.1007/s10013-018-0311-1.
+
 - Gros, S., Zanon, M., Quirynen, R., Bemporad, A., & Diehl, M. (2016). From linear to nonlinear MPC: bridging the gap via the real-time iteration. International Journal of Control, 93(1), 62–80.
+
+#### Trajectory Optimization
 
 - Betts, John T., "Practical Methods for Optimal Control Using Nonlinear Programming, Third Edition".
 
