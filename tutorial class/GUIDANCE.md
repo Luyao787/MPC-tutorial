@@ -31,14 +31,14 @@ This guidance document provides a structured roadmap for the Model Predictive Co
 
 ### Part A: LQR Theory (`week_02_LQR.ipynb`)
 
-### Learning Objectives
+#### Learning Objectives
 - Learn to solve LQR problems using dynamic programming and matrix factorization techniques
 
 - Understand the stability properties of finite-horizon optimal control laws
 
 ### Part B: MPC Formulation (`week_02_mpc_formulation.ipynb`)
 
-### Learning Objectives
+#### Learning Objectives
 - Learn the condensed formulation of liner MPC with inequality constraints
 
 - Understand potential numerical issues associated with the condensed formulation
@@ -46,7 +46,7 @@ This guidance document provides a structured roadmap for the Model Predictive Co
 ## Week 3: Projection and Region of attraction
 **File**: `week_03_projection.ipynb`
 
-### Learning Objectives
+#### Learning Objectives
 - Compute feasible sets for constrained systems
 
 - Understand Fourier-Motzkin elimination
@@ -56,7 +56,7 @@ This guidance document provides a structured roadmap for the Model Predictive Co
 ## Week 4: Terminal Sets and Stability
 **File**: `week_04_LQR_set.ipynb`
 
-### Learning Objectives
+#### Learning Objectives
 - Design an appropriate terminal penalty
 
 - Compute the LQR set
