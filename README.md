@@ -17,7 +17,7 @@ Rawlings, J. B., Mayne D. Q., Diehl, M., Model Predictive Control: Theory, Compu
 
 ## Tutorial Guidance
 
-For a comprehensive guide to the tutorial class, learning objectives, and weekly progression, see **[the guidance document](TUTORIAL_GUIDANCE.md)**.
+For a comprehensive guide to the tutorial class, learning objectives, and weekly progression, see **[the guidance document](./tutorial%20class/GUIDANCE.md)**.
 
 ## Reading
 
