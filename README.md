@@ -15,6 +15,10 @@ We recommend that students read the following sections in the textbook: Chapters
 
 Rawlings, J. B., Mayne D. Q., Diehl, M., Model Predictive Control: Theory, Computation, and Design, 2nd Edition, Nobhill Publishing.
 
+## Tutorial Guidance
+
+For a comprehensive guide to the tutorial class, learning objectives, and weekly progression, see **[the guidance document](TUTORIAL_GUIDANCE.md)**.
+
 ## Reading
 
 ## Textbooks
