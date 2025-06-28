@@ -19,6 +19,8 @@ Rawlings, J. B., Mayne D. Q., Diehl, M., Model Predictive Control: Theory, Compu
 
 For a comprehensive guide to the tutorial class, learning objectives, and weekly progression, see **[the guidance document](./tutorial%20class/GUIDANCE.md)**.
 
+If you are interested in optimization algorithms, feel free to explore our [blogs](https://luyao787.github.io/blog/).
+
 ## Reading
 
 ## Textbooks
