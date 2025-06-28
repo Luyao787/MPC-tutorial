@@ -1,6 +1,6 @@
 # Tutorial materials designed for the MPC course at TU Delft
 
-This repository is actively being developed.
+This repository was used for the MPC tutorial class in 2025. Although the previous teaching assistant, Luyao Zhang, will no longer serve as a teaching assistant, he will continue to maintain this repository.
 
 ## Required background knowledge
 - State space model 
